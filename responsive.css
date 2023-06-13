@@ -1,0 +1,31 @@
+/*Escritorios muy grandes*/
+@media (min-width: 1200px){
+    .sect1{
+        width: 40%;
+    }
+}
+/*Tablets en horizontal y escritorios normales*/
+@media (min-width: 768px){
+    .sect1{
+        width: 40%;
+    }
+    
+}
+/*Moviles en horizontal y tablets en vertical*/
+@media (max-width: 767px){
+    .sect1{
+        width: 80%;
+    }
+}
+/*Moviles en vertical*/
+@media (max-width: 480px){
+    .sect1{
+        width: 80%;
+    }
+    .input{
+        width: 80%;
+    }
+    .textarea{
+        width: 80%;
+    }
+}

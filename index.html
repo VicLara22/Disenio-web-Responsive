@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <title>Formulario Responsive</title>
+</head>
+
+<body>
+    <section class="sect1">
+        <div class="form">
+        <h1>Formulario</h1>
+        <form>
+            <label class="label">Nombre <span class="obligaotrio">*</span></label>
+            <input type="text" name='name' placeholder="Escribe tu nombre" class="input" required="obligaotrio" />
+            <label class="label">Email <span class="obligaotrio">*</span></label>
+            <input type="email" name='email' placeholder="Escribe tu email" class="input" required="obligaotrio" />
+            <label class="label">Sitio web</label>
+            <input type="url" name='sitioweb' placeholder="Escribe tu sitio web" class="input" />
+            <label class="label">Asunto <span class="obligaotrio">*</span></label>
+            <input type="text" name='asunto' placeholder="Escribe un asunto" class="input" required="obligaotrio" />
+            <label class="label">Mensaje <span class="obligaotrio">*</span></label>
+            <textarea name='mensaje' placeholder="Escribe tu mensaje" class="textarea" required="obligaotrio"></textarea>
+            <button type="submit" name="enviar" class="boton">ENVIAR</button>
+            <p class="texto"><span class="obligaotrio">*</span> los campos son obligatorios</p>
+        </form>
+    </div>
+    </section>
+</body>
+
+</html>

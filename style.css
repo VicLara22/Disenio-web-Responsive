@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-family: 'Lato', sans-serif;
+   
+}
+
+.sect1 {
+    margin: 50px auto;
+    padding-top: 30px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 40%;
+    height: auto;
+}
+
+.input {
+    background-color: rgb(240, 240, 240);
+    width: 88%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-left: 40px;
+    font-weight: 900;
+    color: black;
+}
+
+
+textarea {
+    background-color: rgb(240, 240, 240);
+    width: 88%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.boton {
+    position: relative;
+    left: 40%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(115, 227, 255);
+    margin-bottom: 30px;
+    font-weight: 900;
+    color: white;
+    border: 0px;
+}
+
+.boton:hover {
+    background: rgba(0, 128, 0, 0.623);
+}
+
+p {
+    color: black;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.obligaotrio{
+    color: red;
+}
